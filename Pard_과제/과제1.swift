@@ -1,6 +1,7 @@
 
 //  calculator.swift
-//  assignment
+//
+//  파드 과제 1
 //
 //  Created by 박성준 on 9/15/25.
 //
