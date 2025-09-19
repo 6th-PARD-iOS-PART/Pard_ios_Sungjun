@@ -54,7 +54,7 @@ struct CalculatorView: View {
                     }
                     label: {
                         Image(systemName: "list.bullet") //sf symbol 가져오기
-                            .font(.system(size: 30, weight: .bold))// 버튼 글자 크기, 굵기
+                            .font(.system(size: 30))// 버튼 글자 크기
                             .foregroundColor(.white) //버튼 글자 색
                             .frame(width: 50, height: 50) //버튼 원 크기
                             .background(Circle().fill(Color(red: 0.2, green: 0.2, blue: 0.2)))
@@ -271,7 +271,7 @@ struct CalculatorView: View {
                     }
                         label: {
                                 Image(systemName: "percent")
-                                    .font(.system(size: 30, weight: .bold))
+                                    .font(.system(size: 35))
                                     .foregroundColor(.white)
                                     .frame(width: 90, height: 90)
                                     .background(Circle().fill(Color.gray))
@@ -367,7 +367,7 @@ struct CalculatorView: View {
                     Button("7") {
                         print("눌림")
                     }
-                    .font(.system(size: 40, weight: .bold))   // 안의 글자 크기 고정
+                    .font(.system(size: 40))   // 안의 글자 크기 고정
                     .foregroundColor(.white)
                     .frame(width: 90, height: 90)           // 버튼 전체 크기 (원 크기)
                     .background(Circle().fill(Color(UIColor.darkGray)))
@@ -414,7 +414,7 @@ struct CalculatorView: View {
                     Button("8") {
                         print("눌림")
                     }
-                    .font(.system(size: 40, weight: .bold))   // 안의 글자 크기 고정
+                    .font(.system(size: 40))   // 안의 글자 크기 고정
                     .foregroundColor(.white)
                     .frame(width: 90, height: 90)           // 버튼 전체 크기 (원 크기)
                     .background(Circle().fill(Color(UIColor.darkGray)))
@@ -458,7 +458,7 @@ struct CalculatorView: View {
                     Button("9") {
                         print("눌림")
                     }
-                    .font(.system(size: 40, weight: .bold))   // 안의 글자 크기 고정
+                    .font(.system(size: 40))   // 안의 글자 크기 고정
                     .foregroundColor(.white)
                     .frame(width: 90, height: 90)           // 버튼 전체 크기 (원 크기)
                     .background(Circle().fill(Color(UIColor.darkGray)))
@@ -554,7 +554,7 @@ struct CalculatorView: View {
                     Button("4") {
                         print("눌림")
                     }
-                    .font(.system(size: 40, weight: .bold))   // 안의 글자 크기 고정
+                    .font(.system(size: 40))   // 안의 글자 크기 고정
                     .foregroundColor(.white)
                     .frame(width: 90, height: 90)           // 버튼 전체 크기 (원 크기)
                     .background(Circle().fill(Color(UIColor.darkGray)))
@@ -600,7 +600,7 @@ struct CalculatorView: View {
                     Button("5") {
                         print("눌림")
                     }
-                    .font(.system(size: 40, weight: .bold))   // 안의 글자 크기 고정
+                    .font(.system(size: 40))   // 안의 글자 크기 고정
                     .foregroundColor(.white)
                     .frame(width: 90, height: 90)           // 버튼 전체 크기 (원 크기)
                     .background(Circle().fill(Color(UIColor.darkGray)))
@@ -644,7 +644,7 @@ struct CalculatorView: View {
                     Button("6") {
                         print("눌림")
                     }
-                    .font(.system(size: 40, weight: .bold))   // 안의 글자 크기 고정
+                    .font(.system(size: 40))   // 안의 글자 크기 고정
                     .foregroundColor(.white)
                     .frame(width: 90, height: 90)           // 버튼 전체 크기 (원 크기)
                     .background(Circle().fill(Color(UIColor.darkGray)))
@@ -740,7 +740,7 @@ struct CalculatorView: View {
                     Button("1") {
                         print("눌림")
                     }
-                    .font(.system(size: 40, weight: .bold))   // 안의 글자 크기 고정
+                    .font(.system(size: 40))   // 안의 글자 크기 고정
                     .foregroundColor(.white)
                     .frame(width: 90, height: 90)           // 버튼 전체 크기 (원 크기)
                     .background(Circle().fill(Color(UIColor.darkGray)))
@@ -786,7 +786,7 @@ struct CalculatorView: View {
                     Button("2") {
                         print("눌림")
                     }
-                    .font(.system(size: 40, weight: .bold))   // 안의 글자 크기 고정
+                    .font(.system(size: 40))   // 안의 글자 크기 고정
                     .foregroundColor(.white)
                     .frame(width: 90, height: 90)           // 버튼 전체 크기 (원 크기)
                     .background(Circle().fill(Color(UIColor.darkGray)))
@@ -830,7 +830,7 @@ struct CalculatorView: View {
                     Button("3") {
                         print("눌림")
                     }
-                    .font(.system(size: 40, weight: .bold))   // 안의 글자 크기 고정
+                    .font(.system(size: 40))   // 안의 글자 크기 고정
                     .foregroundColor(.white)
                     .frame(width: 90, height: 90)           // 버튼 전체 크기 (원 크기)
                     .background(Circle().fill(Color(UIColor.darkGray)))
@@ -928,7 +928,7 @@ struct CalculatorView: View {
                     }
                         label: {
                                 Image(systemName: "plus.forwardslash.minus")
-                                    .font(.system(size: 40, weight: .bold))
+                                    .font(.system(size: 40))
                                     .foregroundColor(.white)
                                     .frame(width: 90, height: 90)
                                     .background(Circle().fill(Color(UIColor.darkGray)))
@@ -973,7 +973,7 @@ struct CalculatorView: View {
                     Button("0") {
                         print("눌림")
                     }
-                    .font(.system(size: 40, weight: .bold))   // 안의 글자 크기 고정
+                    .font(.system(size: 40))   // 안의 글자 크기 고정
                     .foregroundColor(.white)
                     .frame(width: 90, height: 90)           // 버튼 전체 크기 (원 크기)
                     .background(Circle().fill(Color(UIColor.darkGray)))
