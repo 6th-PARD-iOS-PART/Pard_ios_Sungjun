@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BF534F4C2E7CE796000B6D1A /* Exceptions for "Pard_ios_과제1" folder in "Pard_ios" target */ = {
+		BF534F4C2E7CE796000B6D1A /* Exceptions for "Pard_ios_과제" folder in "Pard_ios" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Pard_iosTests/Pard_iosTests.swift,
@@ -39,14 +39,14 @@
 			);
 			target = BF534EEB2E79CF02000B6D1A /* Pard_ios */;
 		};
-		BF534F4D2E7CE796000B6D1A /* Exceptions for "Pard_ios_과제1" folder in "Pard_iosTests" target */ = {
+		BF534F4D2E7CE796000B6D1A /* Exceptions for "Pard_ios_과제" folder in "Pard_iosTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Pard_iosTests/Pard_iosTests.swift,
 			);
 			target = BF534EF82E79CF03000B6D1A /* Pard_iosTests */;
 		};
-		BF534F4E2E7CE796000B6D1A /* Exceptions for "Pard_ios_과제1" folder in "Pard_iosUITests" target */ = {
+		BF534F4E2E7CE796000B6D1A /* Exceptions for "Pard_ios_과제" folder in "Pard_iosUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Pard_iosUITests/Pard_iosUITests.swift,
@@ -57,15 +57,15 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BF534F392E7CE746000B6D1A /* Pard_ios_과제1 */ = {
+		BF534F392E7CE746000B6D1A /* Pard_ios_과제 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				BF534F4C2E7CE796000B6D1A /* Exceptions for "Pard_ios_과제1" folder in "Pard_ios" target */,
-				BF534F4D2E7CE796000B6D1A /* Exceptions for "Pard_ios_과제1" folder in "Pard_iosTests" target */,
-				BF534F4E2E7CE796000B6D1A /* Exceptions for "Pard_ios_과제1" folder in "Pard_iosUITests" target */,
+				BF534F4C2E7CE796000B6D1A /* Exceptions for "Pard_ios_과제" folder in "Pard_ios" target */,
+				BF534F4D2E7CE796000B6D1A /* Exceptions for "Pard_ios_과제" folder in "Pard_iosTests" target */,
+				BF534F4E2E7CE796000B6D1A /* Exceptions for "Pard_ios_과제" folder in "Pard_iosUITests" target */,
 			);
-			name = "Pard_ios_과제1";
-			path = "Pard_ios_과제1";
+			name = "Pard_ios_과제";
+			path = "Pard_ios_과제";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -98,7 +98,7 @@
 		BF534EE32E79CF02000B6D1A = {
 			isa = PBXGroup;
 			children = (
-				BF534F392E7CE746000B6D1A /* Pard_ios_과제1 */,
+				BF534F392E7CE746000B6D1A /* Pard_ios_과제 */,
 				BF534EED2E79CF02000B6D1A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,7 +129,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				BF534F392E7CE746000B6D1A /* Pard_ios_과제1 */,
+				BF534F392E7CE746000B6D1A /* Pard_ios_과제 */,
 			);
 			name = Pard_ios;
 			packageProductDependencies = (
@@ -186,7 +186,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
-				LastUpgradeCheck = 1640;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					BF534EEB2E79CF02000B6D1A = {
 						CreatedOnToolsVersion = 16.4;
@@ -343,6 +343,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -400,6 +401,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
