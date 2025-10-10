@@ -34,9 +34,6 @@ struct toss_clone_main: View {
             NavigationView {
                 
                 ScrollView {
-                    
-                    
-                    
                     LazyVStack {
                         
                         HStack {
@@ -73,6 +70,7 @@ struct toss_clone_main: View {
                             
                             
                         }
+                        // 1st
                         ZStack{
                             
                             Rectangle()
@@ -110,7 +108,7 @@ struct toss_clone_main: View {
                             }
                             
                         }
-                        
+                        // 2nd
                         ZStack {
                             Rectangle()
                                 .fill(Color.white)
@@ -136,7 +134,7 @@ struct toss_clone_main: View {
                                     .padding(.trailing, 40)
                             }
                         }
-                        ZStack {
+                        ZStack { // list
                             
                             
                             Rectangle()
@@ -213,6 +211,8 @@ struct toss_clone_main: View {
                                     }
                                 }
                                 
+                                
+                                
                                 Spacer()
                                 
                                 VStack {
@@ -284,6 +284,8 @@ struct toss_clone_main: View {
                             .padding(.bottom, 65)
                             
                         }
+                        
+                        // list
                         
                         ZStack{
                             Rectangle()
@@ -366,6 +368,8 @@ struct toss_clone_main: View {
                         }
                         .padding(.top, -50)
                         
+                        // menu
+                        
                         ZStack{
                             Rectangle()
                                 .fill(Color.white)
@@ -404,6 +408,8 @@ struct toss_clone_main: View {
                                 .padding(.trailing, 40)
                             }
                         }
+                        
+                        // 4th
                         ZStack {
                             
                                 Rectangle()
@@ -498,7 +504,7 @@ struct toss_clone_main: View {
                                 }
                             }
                         }
-                        
+                        //5th
                         
                         ZStack {
                             Rectangle()
@@ -522,7 +528,7 @@ struct toss_clone_main: View {
                                 Spacer()
                             }
                         }
-                        
+                        //6th
                         Text("박성준님을 위해 준비했어요")
                             .padding(.top, 20)
                             .frame(maxWidth: .infinity, alignment: .leading)
