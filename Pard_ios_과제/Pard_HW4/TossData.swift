@@ -68,7 +68,7 @@ extension recentData{
         recentData(logo: "toss", who: "토스뱅크통장", num: "토스뱅크 345-3531-457113"),
         recentData(logo: "kb", who: "박영언", num: "KB국민은행 734-324773-4522456"),
         recentData(logo: "kakao", who: "손채원", num: "카카오뱅크 7343-34573-345732"),
-        recentData(logo: "ibk", who: "김진수", num: "IBK기업은행 7378-34573-89345"),
+        recentData(logo: "ibk", who: "박진수", num: "IBK기업은행 7378-34573-89345"),
         recentData(logo: "kb", who: "박영언", num: "KB국민은행 734-324773-4522456"),
         recentData(logo: "kakao", who: "손채원", num: "카카오뱅크 7343-34573-345732"),
         recentData(logo: "ibk", who: "박진수", num: "IBK기업은행 7378-34573-89345")
