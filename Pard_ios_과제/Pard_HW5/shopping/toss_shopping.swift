@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct toss_shopping: View {
-    @StateObject private var viewModel = ShoppingViewModel() // ✅ 뷰모델 생성
+    @StateObject private var viewModel = ShoppingViewModel()
     
     var body: some View {
         ScrollView {
@@ -16,10 +16,8 @@ struct toss_shopping: View {
                 top_menu()
                     .padding(.bottom, 20)
                 
-                // ✅ top_tapbar와 ViewModel의 selectedCategory 연결
                 top_tapbar(selected: $viewModel.selectedCategory)
                 
-                // ✅ 뷰모델을 전달
                 shoppinglist_view(viewModel: viewModel)
             }
         }
